@@ -6,16 +6,16 @@
     <title>Maadcode Portfolio Website</title>
     <!--Normalize Minify CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./assets/logo-maadcode.png" alt="">
-        </div>
+        <a href="#" class="logo">
+            <img src="./assets/logo-maadcode.png" alt="Maadcode logo">
+        </a>
         
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -65,8 +65,8 @@
         <p class="section_subtitle section_subtitle_about">Frontend Developer and Freelancer</p>
 
         <div class="about_me_body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laborum quis unde harum hic molestias, architecto, possimus, optio nesciunt fugit suscipit? Nostrum non impedit unde dolore qui possimus commodi numquam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolore aspernatur officiis, architecto cum omnis eaque assumenda animi explicabo ex.</p>
+            <p>I'm a student in systems engineering and Frontend Development enthusiast. I love learning and creating solutions that implement technology at its core.</p>
+            <p>I have created an informatics blog called areaperu.tech where I teach basic things related to servers, domains and some software. Also, I have participated in some hackathons where I put my learned skills into practice.</p>
         </div>
 
         <img src="./assets/photo.jpeg" alt="A picture of Manuel Dávila" class="about_me_img">
@@ -75,47 +75,71 @@
     <!--My Work-->
     <section class="my_work" id="work">
         <h2 class="section_title section_title_work">My Work</h2>
-        <p class="section_subtitle section_subtitle_work">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+        <p class="section_subtitle section_subtitle_work">These are some projects published in my codepen</p>
 
         <div class="portfolio">
-            <a href="portfolio-item.html" class="portfolio_item">
-                <img src="./assets/img-portfolio.jpeg" alt="" class="portfolio_img">
-            </a>
+            <div class="card">
+                <a href="https://codepen.io/maadcode/full/gOrBjBy" class="portfolio_item">
+                    <img src="./assets/landing-page.png" alt="" class="portfolio_img">
+                </a>
 
-            <a href="portfolio-item.html" class="portfolio_item">
-                <img src="./assets/img-portfolio.jpeg" alt="" class="portfolio_img">
-            </a>
+                <h4 class="portfolio_item_title">Landing Page</h4>
+            </div>
 
-            <a href="portfolio-item.html" class="portfolio_item">
-                <img src="./assets/img-portfolio.jpeg" alt="" class="portfolio_img">
-            </a>
+            <div class="card">
+                <a href="https://codepen.io/maadcode/full/abvLKaw" class="portfolio_item">
+                    <img src="./assets/eyes-animation.png" alt="" class="portfolio_img">
+                </a>
 
-            <a href="portfolio-item.html" class="portfolio_item">
-                <img src="./assets/img-portfolio.jpeg" alt="" class="portfolio_img">
-            </a>
+                <h4 class="portfolio_item_title">Eyes animated</h4>
+            </div>
 
-            <a href="portfolio-item.html" class="portfolio_item">
-                <img src="./assets/img-portfolio.jpeg" alt="" class="portfolio_img">
-            </a>
+            <div class="card">
+                <a href="https://codepen.io/maadcode/full/bGewbOP" class="portfolio_item">
+                    <img src="./assets/slider.png" alt="" class="portfolio_img">
+                </a>
 
-            <a href="portfolio-item.html" class="portfolio_item">
-                <img src="./assets/img-portfolio.jpeg" alt="" class="portfolio_img">
-            </a>
+                <h4 class="portfolio_item_title">Slider Section</h4>
+            </div>
+
+            <div class="card">
+                <a href="https://codepen.io/maadcode/full/LYZrJxe" class="portfolio_item">
+                    <img src="./assets/darkmode-form.png" alt="" class="portfolio_img">
+                </a>
+
+                <h4 class="portfolio_item_title">Darkmode Form</h4>
+            </div>
+
+            <div class="card">
+                <a href="https://codepen.io/maadcode/full/MWeXXOV" class="portfolio_item">
+                    <img src="./assets/rain-stars.png" alt="" class="portfolio_img">
+                </a>
+
+                <h4 class="portfolio_item_title">Stars Rain</h4>
+            </div>
+
+            <div class="card">
+                <a href="https://codepen.io/maadcode/full/mdPjXxj" class="portfolio_item">
+                    <img src="./assets/tribute-page.png" alt="" class="portfolio_img">
+                </a>
+
+                <h4 class="portfolio_item_title">Tribute Page</h4>
+            </div>
         </div>
+
+        <a href="https://codepen.io/maadcode" class="btn btn_work">View more</a>
     </section>
 
     <footer class="footer">
-        <a href="" class="footer_link">maadcode@mydomain.com</a>
-        <ul class="social_list">
-            <li class="social_list_item"><a href="" class="social_list_link"><i class="fab fa-github"></i></a></li>
-            <li class="social_list_item"><a href="" class="social_list_link"><i class="fab fa-free-code-camp"></i></a></li>
-            <li class="social_list_item"><a href="" class="social_list_link"><i class="fab fa-twitter"></i></a></li>
-            <li class="social_list_item"><a href="" class="social_list_link"><i class="fab fa-codepen"></i></a></li>
+        <p class="footer_item">Make with <i class="fas fa-mug-hot"></i> and <i class="fas fa-heart"></i> by <a href="" class="footer_link">Maadcode</a></p>
+        <p class="footer_item">Frontend Dev</p>
+        <ul class="social_list footer_item">
+            <li class="social_list_item"><a href="https://github.com/maadcode" class="social_list_link"><i class="fab fa-github"></i></a></li>
+            <li class="social_list_item"><a href="https://www.freecodecamp.org/maadcode" class="social_list_link"><i class="fab fa-free-code-camp"></i></a></li>
+            <li class="social_list_item"><a href="https://twitter.com/maadcode" class="social_list_link"><i class="fab fa-twitter"></i></a></li>
+            <li class="social_list_item"><a href="https://codepen.io/maadcode" class="social_list_link"><i class="fab fa-codepen"></i></a></li>
         </ul>
     </footer>
-
-    <!--Font Awesome-->
-    <script src="https://kit.fontawesome.com/79e560cc16.js" crossorigin="anonymous"></script>
 
     <!-- Custom JS -->
     <script src="js/main.js"></script>
