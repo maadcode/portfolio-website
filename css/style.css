@@ -324,14 +324,16 @@ header {
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 70px;
+    grid-gap: 50px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .service {
     margin-top: 1.5rem;
-    max-width: 500px;
-    margin: 0 auto;
-
+    max-width: 300px;
+    margin: auto;
 }
 
 .service_img {
@@ -353,10 +355,8 @@ header {
 
 @media screen and (min-width: 800px) {
     .services {
-        display: flex;
+        /* display: flex; */
         max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
 
