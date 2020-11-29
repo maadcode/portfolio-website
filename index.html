@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maadcode Portfolio Website</title>
+    <!-- Metadata -->
+    <meta name="author" content="Manuel Dávila" />
+    <meta name="copyright" content="Manuel Dávila" />
+    <meta name="keywords" content="Maadcode, Frontend, Portfolio" />
+    <meta name="description" content= "My name is Maacode and this is my portfolio where I show my projects as a Frontend developer." />
+    <meta name="robots" content= "index, follow">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <!-- Title -->
+    <title>Maadcode Portfolio</title>
     <!--Normalize Minify CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
     <!-- Font Awesome -->
@@ -38,112 +48,115 @@
         <img src="./assets/photo.jpeg" alt="a picture of Manuel Davila" class="intro_img">
     </section>
 
-    <!--My Services-->
-    <section class="my-services" id="services">
-        <h2 class="section_title section_title_services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <div class="service_img">
-                    <img src="./assets/design.png" alt="">
+    <main>
+        <!--My Services-->
+        <section class="my-services" id="services">
+            <h2 class="section_title section_title_services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <div class="service_img">
+                        <img src="./assets/design.png" alt="">
+                    </div>
+                    <div class="service_content">
+                        <h3>Design</h3>
+                        <p>I design layouts of applications or websites using tools like Figma. HTML and CSS are used for the creation of static pages.</p>
+                    </div>
                 </div>
-                <div class="service_content">
-                    <h3>Design</h3>
-                    <p>I design layouts of applications or websites using tools like Figma. HTML and CSS are used for the creation of static pages.</p>
+                <div class="service">
+                    <div class="service_img">
+                        <img src="./assets/coding.png" alt="">
+                    </div>
+                    <div class="service_content">
+                        <h3>Development</h3>
+                        <p>I code in javascript for animations and interactions on the Frontend. I also use git for version control.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service_img">
+                        <img src="./assets/servers.png" alt="">
+                    </div>
+                    <div class="service_content">
+                        <h3>Hosting</h3>
+                        <p>I know some hosting provider tools such as cPanel, Netlify, Heroku, Firebase and Github Pages. This portfolio is hosted on Github Pages.</p>
+                    </div>
                 </div>
             </div>
-            <div class="service">
-                <div class="service_img">
-                    <img src="./assets/coding.png" alt="">
+    
+            <a href="#work" class="btn">My Work</a>
+        </section>
+    
+        <!--About me-->
+        <section class="about_me" id="about">
+            <h2 class="section_title section_title_about">Who I am</h2>
+            <p class="section_subtitle section_subtitle_about">Frontend Developer and Freelancer</p>
+    
+            <div class="about_me_body">
+                <p>I'm a student in systems engineering and Frontend Development enthusiast. I love learning and creating solutions that implement technology at its core.</p>
+                <p>I have created an informatics blog called <a href="">areaperu.tech</a> where I teach basic things related to servers, domains and some software. Also, I have participated in some hackathons where I put my learned skills into practice.</p>
+            </div>
+    
+            <img src="./assets/photo.jpeg" alt="A picture of Manuel Dávila" class="about_me_img">
+        </section>
+    
+        <!--My Work-->
+        <section class="my_work" id="work">
+            <h2 class="section_title section_title_work">My Work</h2>
+            <p class="section_subtitle section_subtitle_work">These are some projects published in my codepen</p>
+    
+            <div class="portfolio">
+                <div class="card">
+                    <a href="https://codepen.io/maadcode/full/gOrBjBy" class="portfolio_item">
+                        <img src="./assets/landing-page.png" alt="" class="portfolio_img">
+                    </a>
+    
+                    <h4 class="portfolio_item_title">Landing Page</h4>
                 </div>
-                <div class="service_content">
-                    <h3>Development</h3>
-                    <p>I code in javascript for animations and interactions on the Frontend. I also use git for version control.</p>
+    
+                <div class="card">
+                    <a href="https://codepen.io/maadcode/full/abvLKaw" class="portfolio_item">
+                        <img src="./assets/eyes-animation.png" alt="" class="portfolio_img">
+                    </a>
+    
+                    <h4 class="portfolio_item_title">Eyes animated</h4>
+                </div>
+    
+                <div class="card">
+                    <a href="https://codepen.io/maadcode/full/bGewbOP" class="portfolio_item">
+                        <img src="./assets/slider.png" alt="" class="portfolio_img">
+                    </a>
+    
+                    <h4 class="portfolio_item_title">Slider Section</h4>
+                </div>
+    
+                <div class="card">
+                    <a href="https://codepen.io/maadcode/full/LYZrJxe" class="portfolio_item">
+                        <img src="./assets/darkmode-form.png" alt="" class="portfolio_img">
+                    </a>
+    
+                    <h4 class="portfolio_item_title">Darkmode Form</h4>
+                </div>
+    
+                <div class="card">
+                    <a href="https://codepen.io/maadcode/full/MWeXXOV" class="portfolio_item">
+                        <img src="./assets/rain-stars.png" alt="" class="portfolio_img">
+                    </a>
+    
+                    <h4 class="portfolio_item_title">Stars Rain</h4>
+                </div>
+    
+                <div class="card">
+                    <a href="https://codepen.io/maadcode/full/mdPjXxj" class="portfolio_item">
+                        <img src="./assets/tribute-page.png" alt="" class="portfolio_img">
+                    </a>
+    
+                    <h4 class="portfolio_item_title">Tribute Page</h4>
                 </div>
             </div>
-            <div class="service">
-                <div class="service_img">
-                    <img src="./assets/servers.png" alt="">
-                </div>
-                <div class="service_content">
-                    <h3>Hosting</h3>
-                    <p>I know some hosting provider tools such as cPanel, Netlify, Heroku, Firebase and Github Pages. This portfolio is hosted on Github Pages.</p>
-                </div>
-            </div>
-        </div>
+    
+            <a href="https://codepen.io/maadcode" class="btn">View more</a>
+        </section>
+    </main>
 
-        <a href="#work" class="btn">My Work</a>
-    </section>
-
-    <!--About me-->
-    <section class="about_me" id="about">
-        <h2 class="section_title section_title_about">Who I am</h2>
-        <p class="section_subtitle section_subtitle_about">Frontend Developer and Freelancer</p>
-
-        <div class="about_me_body">
-            <p>I'm a student in systems engineering and Frontend Development enthusiast. I love learning and creating solutions that implement technology at its core.</p>
-            <p>I have created an informatics blog called <a href="">areaperu.tech</a> where I teach basic things related to servers, domains and some software. Also, I have participated in some hackathons where I put my learned skills into practice.</p>
-        </div>
-
-        <img src="./assets/photo.jpeg" alt="A picture of Manuel Dávila" class="about_me_img">
-    </section>
-
-    <!--My Work-->
-    <section class="my_work" id="work">
-        <h2 class="section_title section_title_work">My Work</h2>
-        <p class="section_subtitle section_subtitle_work">These are some projects published in my codepen</p>
-
-        <div class="portfolio">
-            <div class="card">
-                <a href="https://codepen.io/maadcode/full/gOrBjBy" class="portfolio_item">
-                    <img src="./assets/landing-page.png" alt="" class="portfolio_img">
-                </a>
-
-                <h4 class="portfolio_item_title">Landing Page</h4>
-            </div>
-
-            <div class="card">
-                <a href="https://codepen.io/maadcode/full/abvLKaw" class="portfolio_item">
-                    <img src="./assets/eyes-animation.png" alt="" class="portfolio_img">
-                </a>
-
-                <h4 class="portfolio_item_title">Eyes animated</h4>
-            </div>
-
-            <div class="card">
-                <a href="https://codepen.io/maadcode/full/bGewbOP" class="portfolio_item">
-                    <img src="./assets/slider.png" alt="" class="portfolio_img">
-                </a>
-
-                <h4 class="portfolio_item_title">Slider Section</h4>
-            </div>
-
-            <div class="card">
-                <a href="https://codepen.io/maadcode/full/LYZrJxe" class="portfolio_item">
-                    <img src="./assets/darkmode-form.png" alt="" class="portfolio_img">
-                </a>
-
-                <h4 class="portfolio_item_title">Darkmode Form</h4>
-            </div>
-
-            <div class="card">
-                <a href="https://codepen.io/maadcode/full/MWeXXOV" class="portfolio_item">
-                    <img src="./assets/rain-stars.png" alt="" class="portfolio_img">
-                </a>
-
-                <h4 class="portfolio_item_title">Stars Rain</h4>
-            </div>
-
-            <div class="card">
-                <a href="https://codepen.io/maadcode/full/mdPjXxj" class="portfolio_item">
-                    <img src="./assets/tribute-page.png" alt="" class="portfolio_img">
-                </a>
-
-                <h4 class="portfolio_item_title">Tribute Page</h4>
-            </div>
-        </div>
-
-        <a href="https://codepen.io/maadcode" class="btn">View more</a>
-    </section>
 
     <footer class="footer">
         <p class="footer_item">Make with <i class="fas fa-mug-hot"></i> and <i class="fas fa-heart"></i> by <a href="" class="footer_link">Maadcode</a></p>

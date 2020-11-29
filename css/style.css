@@ -146,6 +146,10 @@ header {
     box-shadow: var(--bs);
 }
 
+.logo {
+    margin-left: 5vw;
+}
+
 .logo img {
     height: 50px;
 }
@@ -287,6 +291,10 @@ header {
         margin-top: 5rem;
     }
 
+    .section_title_intro {
+        margin-top: 10rem;
+    }
+
     .section_subtitle_intro {
         align-self: start;
         grid-column: -1 / 1;
@@ -365,6 +373,15 @@ header {
 .about_me {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.about_me a {
+    text-decoration: none;
+    color: var(--clr-accent);
+}
+
+.about_me a:hover {
+    text-decoration: underline;
 }
 
 .about_me_img {
@@ -483,9 +500,9 @@ header {
 .social_list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     padding: 0;
 }
